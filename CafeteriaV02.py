@@ -221,7 +221,7 @@ try:
     lbl_imagen = tk.Label(root, image=imagen_original)
     lbl_imagen.pack(pady=10)
 except Exception:
-    lbl_sin_imagen = tk.Label(root, text="[AQUI IRÍA TU LOGO]", fg="gray")
+    lbl_sin_imagen = tk.Label(root, text="logo_cafeteria.png", fg="gray")
     lbl_sin_imagen.pack(pady=10)
 
 lbl_titulo = tk.Label(root, text="Bienvenido a la Cafetería", font=("Helvetica", 14, "bold"))
